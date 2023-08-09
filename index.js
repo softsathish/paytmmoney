@@ -1,6 +1,6 @@
 let WebSocketServer = require('ws');
 
-const LivePriceWebSocket = require('./LivePriceWebSocket.js');
+const LivePriceWebSocket = require('./livePriceWebSocket.js');
 let livePriceWebSocket = new LivePriceWebSocket();
 jwt =
 	'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJtZXJjaGFudCIsImlzcyI6InBheXRtbW9uZXkiLCJpZCI6MzkzNjY1LCJleHAiOjE2OTE2MDU3OTl9.l4eR46PrUWQHIeqbCLOz9w_ojSr0vO2AcWsTZKx72sI'; // enter your public access token here
