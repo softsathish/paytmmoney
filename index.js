@@ -2,8 +2,9 @@ let WebSocketServer = require('ws');
 
 const LivePriceWebSocket = require('./livePriceWebSocket.js');
 let livePriceWebSocket = new LivePriceWebSocket();
+// enter your public access token here
 jwt =
-	'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJtZXJjaGFudCIsImlzcyI6InBheXRtbW9uZXkiLCJpZCI6MzkzNjY1LCJleHAiOjE2OTE2MDU3OTl9.l4eR46PrUWQHIeqbCLOz9w_ojSr0vO2AcWsTZKx72sI'; // enter your public access token here
+	'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJtZXJjaGFudCIsImlzcyI6InBheXRtbW9uZXkiLCJpZCI6Mzk3MzE5LCJleHAiOjE2OTE2OTIxOTl9.KbvFKPAHbblyIdk3p20ZeN5Uiz2qGHWNqQXXBHGj238';
 
 
 const wss = new WebSocketServer.WebSocketServer({ port: 8080 });
