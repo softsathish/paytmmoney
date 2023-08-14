@@ -1,4 +1,5 @@
 let WebSocketServer = require('ws');
+const wss = new WebSocketServer.WebSocketServer({ port: 8080 });
 
 const LivePriceWebSocket = require('./livePriceWebSocket.js');
 let livePriceWebSocket = new LivePriceWebSocket();
@@ -6,12 +7,29 @@ let livePriceWebSocket = new LivePriceWebSocket();
 jwt =
 	'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJtZXJjaGFudCIsImlzcyI6InBheXRtbW9uZXkiLCJpZCI6NDA5NDE3LCJleHAiOjE2OTIwMzc3OTl9.uKCtcJLRKZKsxwXZRIufeVewQWo8fCBLYmEOUzjWSyU';
 
+function uuidv4() {
+	return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+		var r = (Math.random() * 16) | 0,
+			v = c == 'x' ? r : (r & 0x3) | 0x8;
+		return v.toString(16);
+	});
+}
 
-const wss = new WebSocketServer.WebSocketServer({ port: 8080 });
+const clients = new Map();
 wss.on('connection', function connection(ws) {
-	console.log('new connection created');
+	const id = uuidv4();
+	console.log('new connection created', id);
+	const metadata = { id };
+	clients.set(ws, metadata);
+	// ws.send('Connection success');
 	ws.on('message', function message(data) {
-		console.log('received: %s', JSON.parse(data).map(obj => obj.scripId));
+		console.log(
+			'received: %s',
+			JSON.parse(data).map((obj) => obj.scripId)
+		);
+		const clientData = JSON.parse(data);
+		const metadata = clients.get(ws);
+		clientData.sender = metadata.id;
 		livePriceWebSocket.setOnOpenListener(() => {
 			livePriceWebSocket.subscribe(JSON.parse(data));
 		});
@@ -23,7 +41,11 @@ wss.on('connection', function connection(ws) {
 
 		// this event gets triggered when response is received
 		livePriceWebSocket.setOnMessageListener((arr) => {
-            ws.send(JSON.stringify(arr));
+			const outbound = JSON.stringify(arr);
+
+			[...clients.keys()].forEach((client) => {
+				client.send(outbound);
+			});
 		});
 
 		// this event gets triggered when error occurs
@@ -54,6 +76,11 @@ wss.on('connection', function connection(ws) {
 				console.log('\n');
 			});
 		}
+	});
+	ws.on('close', () => {
+		const metadata = clients.get(ws);
+		console.log('closing connection', metadata.id);
+		clients.delete(ws);
 	});
 });
 
