@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
     "querystring": "^0.2.1",
     "request": "^2.88.2",
     "stocksocket": "^2.1.2",
