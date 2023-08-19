@@ -7,7 +7,7 @@ const LivePriceWebSocket = require('./livePriceWebSocket.js');
 let livePriceWebSocket = new LivePriceWebSocket();
 // enter your public access token here
 jwt =
-	'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJtZXJjaGFudCIsImlzcyI6InBheXRtbW9uZXkiLCJpZCI6NDEyMzMzLCJleHAiOjE2OTIxMjQxOTl9.ETJ7CHbi5lc79hDfLG3Okk1gnQ64efgtDMwykD3iJ34';
+	'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJtZXJjaGFudCIsImlzcyI6InBheXRtbW9uZXkiLCJpZCI6NDIxNzA0LCJleHAiOjE2OTI0Njk3OTl9.RJFCPOm7cN218SS0mhODNm_NLBN9U7sJgRiHAL-96eI';
 
 function uuidv4() {
 	return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
@@ -18,6 +18,17 @@ function uuidv4() {
 }
 
 const clients = new Map();
+wss.on('request', function (request) {
+	if (!originIsAllowed(request.origin)) {
+		// Make sure we only accept requests from an allowed origin
+		request.reject();
+		console.log(
+			new Date() + ' Connection from origin ' + request.origin + ' rejected.'
+		);
+		return;
+	}
+});
+
 wss.on('connection', function connection(ws) {
 	const id = uuidv4();
 	console.log('new connection created', id);
