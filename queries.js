@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 3010;
 const stocksRouter = require('./routes/stocks');
 const stocks = require('./services/stocks');
 app.use(express.json());
@@ -80,8 +79,4 @@ app.use((err, req, res, next) => {
 	console.error(err.message, err.stack);
 	res.status(statusCode).json({ message: err.message });
 	return;
-});
-
-app.listen(port, () => {
-	console.log(`Example app listening at http://localhost:${port}`);
 });
