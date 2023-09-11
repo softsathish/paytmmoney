@@ -1,9 +1,12 @@
-const express = require('express');
+var express = require('express');
 const cors = require('cors');
 const app = express();
+
 const stocksRouter = require('./routes/stocks');
 const stocks = require('./services/stocks');
-app.use(express.json());
+// app.use(express.json());
+app.listen(8080);
+app.use(express.static(__dirname));
 app.use(
 	cors({
 		origin: '*',
@@ -43,6 +46,7 @@ app.delete('/watchlist/:id', async function (req, res, next) {
 });
 app.post('/addToWatchList', async function (req, res) {
 	try {
+		console.log('watchlist', req.body);
         res.json(await stocks.addToWatchList(req.body.watchList));
 	} catch (err) {
 		console.error(`Error while adding watchlist `, err.message);

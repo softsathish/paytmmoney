@@ -1,7 +1,7 @@
 let WebSocketServer = require('ws');
 require('./queries');
 
-const wss = new WebSocketServer.WebSocketServer({ port: 8080 });
+const wss = new WebSocketServer.WebSocketServer({ port: 3000 });
 
 const LivePriceWebSocket = require('./livePriceWebSocket.js');
 let livePriceWebSocket = new LivePriceWebSocket();
