@@ -1,0 +1,506 @@
+[
+	{
+	  "scripId": 25,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Adani Enterprises Ltd.",
+	  "symbol": "ADANIENT"
+	},
+	{
+	  "scripId": 15083,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Adani Ports and Special Economic Zone Ltd.",
+	  "symbol": "ADANIPORTS"
+	},
+	{
+	  "scripId": 157,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Apollo Hospitals Enterprise Ltd.",
+	  "symbol": "APOLLOHOSP"
+	},
+	{
+	  "scripId": 236,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Asian Paints Ltd.",
+	  "symbol": "ASIANPAINT"
+	},
+	{
+	  "scripId": 5900,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Axis Bank Ltd.",
+	  "symbol": "AXISBANK"
+	},
+	{
+	  "scripId": 16669,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Bajaj Auto Ltd.",
+	  "symbol": "BAJAJ-AUTO"
+	},
+	{
+	  "scripId": 317,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Bajaj Finance Ltd.",
+	  "symbol": "BAJFINANCE"
+	},
+	{
+	  "scripId": 16675,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Bajaj Finserv Ltd.",
+	  "symbol": "BAJAJFINSV"
+	},
+	{
+	  "scripId": 526,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Bharat Petroleum Corporation Ltd.",
+	  "symbol": "BPCL"
+	},
+	{
+	  "scripId": 10604,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Bharti Airtel Ltd.",
+	  "symbol": "BHARTIARTL"
+	},
+	{
+	  "scripId": 547,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Britannia Industries Ltd.",
+	  "symbol": "BRITANNIA"
+	},
+	{
+	  "scripId": 694,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Cipla Ltd.",
+	  "symbol": "CIPLA"
+	},
+	{
+	  "scripId": 20374,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Coal India Ltd.",
+	  "symbol": "COALINDIA"
+	},
+	{
+	  "scripId": 10940,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Divi's Laboratories Ltd.",
+	  "symbol": "DIVISLAB"
+	},
+	{
+	  "scripId": 881,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Dr. Reddy's Laboratories Ltd.",
+	  "symbol": "DRREDDY"
+	},
+	{
+	  "scripId": 910,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Eicher Motors Ltd.",
+	  "symbol": "EICHERMOT"
+	},
+	{
+	  "scripId": 1232,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Grasim Industries Ltd.",
+	  "symbol": "GRASIM"
+	},
+	{
+	  "scripId": 7229,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "HCL Technologies Ltd.",
+	  "symbol": "HCLTECH"
+	},
+	{
+	  "scripId": 1333,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "HDFC Bank Ltd.",
+	  "symbol": "HDFCBANK"
+	},
+	{
+	  "scripId": 467,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "HDFC Life Insurance Company Ltd.",
+	  "symbol": "HDFCLIFE"
+	},
+	{
+	  "scripId": 1348,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Hero MotoCorp Ltd.",
+	  "symbol": "HEROMOTOCO"
+	},
+	{
+	  "scripId": 1363,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Hindalco Industries Ltd.",
+	  "symbol": "HINDALCO"
+	},
+	{
+	  "scripId": 1394,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Hindustan Unilever Ltd.",
+	  "symbol": "HINDUNILVR"
+	},
+	{
+	  "scripId": 4963,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "ICICI Bank Ltd.",
+	  "symbol": "ICICIBANK"
+	},
+	{
+	  "scripId": 1660,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "ITC Ltd.",
+	  "symbol": "ITC"
+	},
+	{
+	  "scripId": 5258,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "IndusInd Bank Ltd.",
+	  "symbol": "INDUSINDBK"
+	},
+	{
+	  "scripId": 1594,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Infosys Ltd.",
+	  "symbol": "INFY"
+	},
+	{
+	  "scripId": 11723,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "JSW Steel Ltd.",
+	  "symbol": "JSWSTEEL"
+	},
+	{
+	  "scripId": 1922,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Kotak Mahindra Bank Ltd.",
+	  "symbol": "KOTAKBANK"
+	},
+	{
+	  "scripId": 17818,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "LTIMindtree Ltd.",
+	  "symbol": "LTIM"
+	},
+	{
+	  "scripId": 11483,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Larsen & Toubro Ltd.",
+	  "symbol": "LT"
+	},
+	{
+	  "scripId": 2031,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Mahindra & Mahindra Ltd.",
+	  "symbol": "M&M"
+	},
+	{
+	  "scripId": 10999,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Maruti Suzuki India Ltd.",
+	  "symbol": "MARUTI"
+	},
+	{
+	  "scripId": 11630,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "NTPC Ltd.",
+	  "symbol": "NTPC"
+	},
+	{
+	  "scripId": 17963,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Nestle India Ltd.",
+	  "symbol": "NESTLEIND"
+	},
+	{
+	  "scripId": 2475,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Oil & Natural Gas Corporation Ltd.",
+	  "symbol": "ONGC"
+	},
+	{
+	  "scripId": 14977,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Power Grid Corporation of India Ltd.",
+	  "symbol": "POWERGRID"
+	},
+	{
+	  "scripId": 2885,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Reliance Industries Ltd.",
+	  "symbol": "RELIANCE"
+	},
+	{
+	  "scripId": 21808,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "SBI Life Insurance Company Ltd.",
+	  "symbol": "SBILIFE"
+	},
+	{
+	  "scripId": 3045,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "State Bank of India",
+	  "symbol": "SBIN"
+	},
+	{
+	  "scripId": 3351,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Sun Pharmaceutical Industries Ltd.",
+	  "symbol": "SUNPHARMA"
+	},
+	{
+	  "scripId": 11536,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Tata Consultancy Services Ltd.",
+	  "symbol": "TCS"
+	},
+	{
+	  "scripId": 3432,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Tata Consumer Products Ltd.",
+	  "symbol": "TATACONSUM"
+	},
+	{
+	  "scripId": 3456,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Tata Motors Ltd.",
+	  "symbol": "TATAMOTORS"
+	},
+	{
+	  "scripId": 3499,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Tata Steel Ltd.",
+	  "symbol": "TATASTEEL"
+	},
+	{
+	  "scripId": 13538,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Tech Mahindra Ltd.",
+	  "symbol": "TECHM"
+	},
+	{
+	  "scripId": 3506,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Titan Company Ltd.",
+	  "symbol": "TITAN"
+	},
+	{
+	  "scripId": 11287,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "UPL Ltd.",
+	  "symbol": "UPL"
+	},
+	{
+	  "scripId": 11532,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "UltraTech Cement Ltd.",
+	  "symbol": "ULTRACEMCO"
+	},
+	{
+	  "scripId": 3787,
+	  "actionType": "ADD",
+	  "modeType": "FULL",
+	  "scripType": "EQUITY",
+	  "exchangeType": "NSE",
+	  "name": "Wipro Ltd.",
+	  "symbol": "WIPRO"
+	},
+	{
+		"scripId": 21,
+		"actionType": "ADD",
+		"modeType": "FULL",
+		"scripType": "INDEX",
+		"exchangeType": "NSE",
+		"name": "India Vix",
+		"symbol": ""
+	  },
+	  {
+		"scripId": 13,
+		"actionType": "ADD",
+		"modeType": "FULL",
+		"scripType": "INDEX",
+		"exchangeType": "NSE",
+		"name": "Nifty 50",
+		"symbol": ""
+	  },
+	  {
+		"scripId": 51,
+		"actionType": "ADD",
+		"modeType": "FULL",
+		"scripType": "INDEX",
+		"exchangeType": "NSE",
+		"name": "Sensex",
+		"symbol": ""
+	  },
+	  {
+		"scripId": 25,
+		"actionType": "ADD",
+		"modeType": "FULL",
+		"scripType": "INDEX",
+		"exchangeType": "NSE",
+		"name": "Nifty Bank",
+		"symbol": ""
+	  },
+	  {
+		"scripId": 29,
+		"actionType": "ADD",
+		"modeType": "FULL",
+		"scripType": "INDEX",
+		"exchangeType": "NSE",
+		"name": "Nifty IT",
+		"symbol": ""
+	  },
+	  {
+		"scripId": 27,
+		"actionType": "ADD",
+		"modeType": "FULL",
+		"scripType": "INDEX",
+		"exchangeType": "NSE",
+		"name": "Nifty Finance",
+		"symbol": ""
+	  }
+  ]
