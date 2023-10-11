@@ -63,7 +63,7 @@ wss.on('connection', function connection(ws) {
 		const metadata = clients.get(ws);
 		clientData.sender = metadata.id;
 
-		// livePriceWebSocket.reconnect();
+		livePriceWebSocket.reconnect();
 
 		// this event gets triggered when connection is closed
 		livePriceWebSocket.setOnCloseListener((code, reason) => {
