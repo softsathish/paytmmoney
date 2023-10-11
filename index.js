@@ -40,7 +40,6 @@ livePriceWebSocket.setReconnectConfig(true, 5);
 
 livePriceWebSocket.setOnOpenListener(() => {
 	livePriceWebSocket.subscribe(preloadList);
-	console.log('preloadList', preloadList)
 	console.log('watching all the securities');
 });
 
