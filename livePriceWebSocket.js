@@ -274,8 +274,6 @@ class LivePriceWebSocket {
 		function processFullPacket() {
 			const ourBuffer = Buffer.from(packet);
 
-			// decode Buffer but only first 3 data of Buffer
-			console.log(ourBuffer.toString('utf8', 0, 100));
 			let depth_size = 20;
 			let depthPacket = {};
 			for (let i = 0; i < 5; i++) {

@@ -1,14 +1,5 @@
 [
 	{
-	  "scripId": 25,
-	  "actionType": "ADD",
-	  "modeType": "FULL",
-	  "scripType": "EQUITY",
-	  "exchangeType": "NSE",
-	  "name": "Adani Enterprises Ltd.",
-	  "symbol": "ADANIENT"
-	},
-	{
 	  "scripId": 15083,
 	  "actionType": "ADD",
 	  "modeType": "FULL",

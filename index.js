@@ -80,7 +80,6 @@ wss.on('connection', function connection(ws) {
 
 		// this event gets triggered when response is received
 		livePriceWebSocket.setOnMessageListener((arr) => {
-			console.log('sending output');
 			const outbound = JSON.stringify(arr);
 			if (arr) {
 				[...clients.keys()].forEach((client) => {
