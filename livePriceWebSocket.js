@@ -65,7 +65,7 @@ class LivePriceWebSocket {
 		});
 
 		this.socket.on('close', (code, reason) => {
-			this.onCloseListener(code, reason);
+			this.onCloseListener ? this.onCloseListener(code, reason) : console.error(code, reason);
 			/**
 			 *  if reconnect feature is opted, closure code is not normal closure and onError is not triggered, we reconnect
 			 * errorCode = null suggests that onError has not been triggered thus, recconect method has not already been called
