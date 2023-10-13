@@ -443,7 +443,7 @@
 	{
 		"scripId": 21,
 		"actionType": "ADD",
-		"modeType": "FULL",
+		"modeType": "LTP",
 		"scripType": "INDEX",
 		"exchangeType": "NSE",
 		"name": "India Vix",
@@ -452,7 +452,7 @@
 	  {
 		"scripId": 13,
 		"actionType": "ADD",
-		"modeType": "FULL",
+		"modeType": "LTP",
 		"scripType": "INDEX",
 		"exchangeType": "NSE",
 		"name": "Nifty 50",
@@ -461,7 +461,7 @@
 	  {
 		"scripId": 51,
 		"actionType": "ADD",
-		"modeType": "FULL",
+		"modeType": "LTP",
 		"scripType": "INDEX",
 		"exchangeType": "NSE",
 		"name": "Sensex",
@@ -470,7 +470,7 @@
 	  {
 		"scripId": 25,
 		"actionType": "ADD",
-		"modeType": "FULL",
+		"modeType": "LTP",
 		"scripType": "INDEX",
 		"exchangeType": "NSE",
 		"name": "Nifty Bank",
@@ -479,7 +479,7 @@
 	  {
 		"scripId": 29,
 		"actionType": "ADD",
-		"modeType": "FULL",
+		"modeType": "LTP",
 		"scripType": "INDEX",
 		"exchangeType": "NSE",
 		"name": "Nifty IT",
@@ -488,7 +488,7 @@
 	  {
 		"scripId": 27,
 		"actionType": "ADD",
-		"modeType": "FULL",
+		"modeType": "LTP",
 		"scripType": "INDEX",
 		"exchangeType": "NSE",
 		"name": "Nifty Finance",
