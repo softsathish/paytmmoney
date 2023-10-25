@@ -8,7 +8,7 @@ const LivePriceWebSocket = require('./livePriceWebSocket.js');
 let livePriceWebSocket = new LivePriceWebSocket();
 // enter your public access token here
 jwt =
-	'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJtZXJjaGFudCIsImlzcyI6InBheXRtbW9uZXkiLCJpZCI6NTcwNjI4LCJleHAiOjE2OTcyMjE3OTl9.62EBUU_LCx5R-mIlswtZay--JxIym3Rn8zv2-LYZIfw';
+	'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJtZXJjaGFudCIsImlzcyI6InBheXRtbW9uZXkiLCJpZCI6NTk0MjIyLCJleHAiOjE2OTgyNTg1OTl9.OGQQzX5aQW-3CWoW5fRgtt6s-iB3ZA-NXHD3OWnWt8A';
 
 function uuidv4() {
 	return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
